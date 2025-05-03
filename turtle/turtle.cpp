@@ -16,12 +16,6 @@ int lar = 0;
 int hau = 0;
 bool goback = false;
 
-void home(){
-    tlX = HomeX;
-    tlY = HomeY;
-    update();
-}
-
 void display(int l,int h,int bgc,std::vector<int> dx,std::vector<int> dy,std::vector<int> dc,int lon){
     std::string screen = "";
     HomeX = l/2;
@@ -96,7 +90,6 @@ void display(int l,int h,int bgc,std::vector<int> dx,std::vector<int> dy,std::ve
         screen += line + "\n";
     }
     std::cout<<screen<<"\n";
-    home()
 }
 
 void update(){
@@ -198,5 +191,11 @@ void setY(int Y){
 void setpos(int X,int Y){
     tlX = X;
     tlY = Y;
+    update();
+}
+
+void home(){
+    tlX = HomeX;
+    tlY = HomeY;
     update();
 }
