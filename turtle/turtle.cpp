@@ -1,9 +1,6 @@
 #include <iostream>
 #include <vector>
 
-std::vector<int> x = {};
-std::vector<int> y = {};
-std::vector<int> col = {};
 int HomeX = 0;
 int HomeY = 0;
 int length = x.size();
@@ -22,6 +19,7 @@ void display(int l,int h,int bgc,std::vector<int> dx,std::vector<int> dy,std::ve
     HomeY = h/2;
     lar = l;
     hau = h;
+    bgcol = bgc;
     for(int y = 0; y < h; y++){
         std::string line = "";
         for (int x = 0; x < l; x++){
