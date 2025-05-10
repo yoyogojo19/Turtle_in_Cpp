@@ -1,4 +1,4 @@
 #!/bin/bash
 cd turtle/
 g++ "turtle command.cpp" turtle.cpp
-./turtle/a.out
+./a.out
