@@ -4,7 +4,7 @@ This is a basic recreation of Turtle (from pyhton) in C++.
 To get the code simply download the turtle folder and open it.
 
 ### Linux
-To use this code make sure you have a **C/C++ compiler**, verify for **clang** or **g++** by typing ,in a **terminal**, `g++ --version` or `clang --version`. If you don't have any of theme type `sudo apt install build-essentials` for g++ and `sudo apt install clang` for clang.
+To use this code make sure you have a **C/C++ compiler**, verify for **g++** by typing ,in a **terminal**, `g++ --version`. If you don't have any of theme type `sudo apt install build-essentials`. This code only allows g++.
 
 Then you can execute `./run.sh` from the root directory.
 

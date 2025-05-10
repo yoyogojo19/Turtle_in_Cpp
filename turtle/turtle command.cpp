@@ -15,16 +15,19 @@ int main(){
     left(2);
     back(5);
     setpos(0,0);
-    while (i < 4){
+    right(1);
+    while (i < 5){
         pencolor(i);
         forward(13);
         i += 1;
     }
     setX(0);
     setY(24);
-    while (i < 7){
+    while (i < 8){
         forward(13);
         pencolor(i);
         i += 1;
     }
+    home();
+    update();
 }
