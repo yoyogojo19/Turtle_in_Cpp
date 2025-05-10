@@ -11,7 +11,7 @@ To use this code make sure you have a **C/C++ compiler**, verify for **g++** by 
 Then you can execute `./run.sh` from the root directory.
 
 ### Windows
-To run the code on **Windows** download this [C/C++ compiler](https://sourceforge.net/projects/mingw/files/OldFiles/) and double-click the **run windows.bat** file
+To run the code on **Windows** download [VS code](https://code.visualstudio.com/) open it and transfer the main file to VS code and in it's terminal write `./Turtle_in_Cpp-files/run.sh`
 
 ## For more advanced pepole
 If you feel advanced enough, feel free to change the code in **turtle command.cpp**
